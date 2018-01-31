@@ -1,3 +1,4 @@
+//0826199500217
 var express = require('express');
 var router = express.Router();
 
@@ -18,5 +19,7 @@ router.get('/prueba1', function(req, res, next) {
   res.render('newview', { "Nombre": "Byron",
                           "Correo":"bsalgado@gmail.com"});
 });
+
+
 
 module.exports = router;
